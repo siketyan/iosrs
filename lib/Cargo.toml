@@ -1,0 +1,11 @@
+[package]
+name = "iosrs"
+description = "An example iOS App with Swift using Rust as a static library."
+authors = ["Naoki Ikeguchi <me@s6n.jp>"]
+version = "0.1.0"
+edition = "2018"
+publish = false
+
+[lib]
+name = "iosrs"
+crate-type = ["staticlib"]
